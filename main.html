@@ -7,10 +7,64 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container my-5">
+        <h3>Shopping Cart</h3>
+        <p>The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>
 
+        <!-- Shopping Cart Items -->
+        <div class="row border-top py-3">
+            <div class="col-md-8">
+                <!-- Item 1 -->
+                <div class="row mb-4 align-items-center">
+                    <div class="col-3">
+                        <img src="https://via.placeholder.com/100" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <h5>I am very sorry</h5>
+                        <p class="text-muted">Display: 6.5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+                    </div>
+                    <div class="col-2">
+                        <input type="number" class="form-control" min="0" value="1">
+                    </div>
+                    <div class="col-1 text-right">
+                        <p>$120</p>
+                    </div>
+                </div>
+                
+                <!-- Repeat similar blocks for more items -->
+                
+            </div>
+
+            <!-- Summary Section -->
+            <div class="col-md-4">
+                <div class="border p-3">
+                    <h5>Summary</h5>
+                    <div class="d-flex justify-content-between">
+                        <p>Subtotal</p>
+                        <p>$360</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Discount</p>
+                        <p>$0</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Shipping</p>
+                        <p>$0</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between font-weight-bold">
+                        <p>Total</p>
+                        <p>$360</p>
+                    </div>
+                    <button class="btn btn-primary btn-block mt-3">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
